@@ -1,0 +1,88 @@
+---
+title: "HELPrct (Data Verbs) Activity"
+author: "Names of BOTH partners"
+date: "Due Date"
+output: html_notebook
+---
+
+
+## Set Up:
+
+```{r}
+# load packages
+library(tidyverse)  # includes lots of data verbs like `group-by()` and `summarise()`
+library(mosaicData) # includes the `HELPrct data set 
+library(mosaic)     # includes the `mplot()` interactive plot builder
+
+# Load the HELPrct data set into our RStudio environment
+data("HELPrct")
+
+```
+
+
+## Data Description
+
+*Task 1: Write a couple of sentences describing the `HELPrct` data--What is the setting for the data? What are they about?* 
+
+
+## Basic Summaries with `summarise()` 
+
+*Task 2: Produce an expression involving `summarize()` and `HELPrct` that will produce the following.*
+
+- *number of people (cases) in `HELPrct` study*
+- *combined total number of times in the past 6 months all the people in `HELPrct` entered a detox program (measured at baseline)* 
+- *mean time (in days) to first use of any substance post-detox for all the people in `HELPrct`*
+
+
+```{r}
+
+```
+
+
+## Subgrouping with `group_by()` 
+
+*Task 2: Repeat task 1 above, but calculate the results group-by-group.  Show your code and write a sentence or two about what you observe in the results for each of the following:* 
+
+1. *males versus females*
+
+```{r}
+
+```
+
+
+2. *homeless or not*
+
+```{r}
+
+```
+
+3. *substance*
+
+```{r}
+
+```
+
+4. *break down the homeless versus housed further, by sex*
+
+```{r}
+
+```
+
+5. *break down the homeless versus housed further, by substance*
+
+```{r}
+
+```
+
+
+## Task 3:
+
+*Include one or more interesting plots of the data involving at least 3 variables per plot. Write a few sentances to explain the story that your plot tells about these data.  You can use one of the relationships that you studied in Task 2, or you can explore a different group of variables in the HELPrct that show something interesting.*  
+
+
+
+```{r}
+
+```
+
+
